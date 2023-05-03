@@ -27,4 +27,4 @@ docker build -t getzlab/$METHOD_NAME:${VERSION} ${EXTRA_DOCKER_BUILD_ARGS} ${DOC
 
 # push method docker
 docker tag getzlab/$METHOD_NAME:${VERSION} gcr.io/broad-getzlab-workflows/$METHOD_NAME:${VERSION}
-docker push gcr.io/broad-getzlab-workflows/$METHOD_NAME:${VERSION}
+#docker push gcr.io/broad-getzlab-workflows/$METHOD_NAME:${VERSION}
